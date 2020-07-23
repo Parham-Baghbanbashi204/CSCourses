@@ -1,0 +1,24 @@
+from collections import deque
+
+# same as stackOOP just is using a dque insted
+# dque can be used to simulate linked lists and stacks much
+# better then lists can becuse appending and poping happen in 0(1)
+stack = deque()
+
+# same as stackOOP.push
+print("Pusing to stack")
+stack.append(10)
+stack.append("Howdy")
+stack.append("Ma'am")
+stack.append("how are you")
+stack.append("end")
+# full stack
+print(stack)
+
+print('\nPoping elements from stack')
+# use list.pop to pop element form stack in LIFO order
+print(stack.pop())
+print(stack.pop())
+print(stack.pop())
+
+print(stack)

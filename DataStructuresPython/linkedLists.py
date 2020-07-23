@@ -1,7 +1,7 @@
 # doubly linked lists
 
-class DoubleLinkedList:
-    class __Node:
+class DoubleLinkedList(object):
+    class __Node(object):
         data = None
         previousNode = None
         nextNode = None
@@ -85,7 +85,7 @@ class DoubleLinkedList:
         if self.is_emmpty():
             raise RuntimeError("Empty list")
         data = self.__tail.data
-        self.__tail = self.__tail.periviousNode
+        self.__tail = self.__tail.previousNode
         self.__size -= 1
 
         if self.is_emmpty():
@@ -178,11 +178,3 @@ class DoubleLinkedList:
         return output
 
 
-dll = DoubleLinkedList()
-
-dll.add_first(10)
-dll.add_last("Hi")
-dll.add("sup")
-print(dll.peek_first())
-print(dll.peek_last())
-print(dll.print_list())

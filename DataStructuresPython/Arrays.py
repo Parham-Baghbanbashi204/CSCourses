@@ -27,7 +27,7 @@ arr.reverse()
 arr.pop(1)
 
 
-class Array():
+class Array(object):
     # use def __init__(self, *args) to pass as meany arguments you want
     # and use **kwargs to parse variables
     # __ is private
