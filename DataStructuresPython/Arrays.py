@@ -29,6 +29,10 @@ arr.reverse()
 arr.pop(1)
 
 class Array():
+    # use def __init__(self, *args) to pass as meany arguments you want
+    #and use **kwargs to parse variables
+    # __ is private
+
 
     def __init__(self,capacity_value):
         self.arr = []
@@ -83,20 +87,4 @@ class Array():
     
     def contain(self, element):
         return self.indexOf(element) != -1
-    
-
-
-
-
-
-
-
-        
-                
-
-
-
-
-    
-
         
