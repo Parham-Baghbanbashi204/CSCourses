@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/CScourses.iml" filepath="$PROJECT_DIR$/.idea/CScourses.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DataStructuresJava/DataStructuresJava.iml" filepath="$PROJECT_DIR$/DataStructuresJava/DataStructuresJava.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GraphTheoryJava/GraphTheoryJava.iml" filepath="$PROJECT_DIR$/GraphTheoryJava/GraphTheoryJava.iml" />
+    </modules>
+  </component>
+</project>
