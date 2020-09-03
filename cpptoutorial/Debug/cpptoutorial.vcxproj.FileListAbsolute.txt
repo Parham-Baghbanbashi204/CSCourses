@@ -1,0 +1,2 @@
+D:\CScourses\cpptoutorial\Debug\cpptoutorial.exe
+D:\CScourses\cpptoutorial\Debug\cpptoutorial.pdb
