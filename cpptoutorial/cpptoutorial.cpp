@@ -10,6 +10,12 @@ int cpptoutorial()
     //cout  = output stream object
     //<<  = streem insertion operator
     cout << "Hello World!" << endl;
+
+    //examples of cout
+    cout << "I lke bacon" << endl;
+    //endl means that it ends the line and starts a new one 
+    cout << "And Ham" << endl;
+
     //return = returns a value
     //return 0 = no errors
     return 0;

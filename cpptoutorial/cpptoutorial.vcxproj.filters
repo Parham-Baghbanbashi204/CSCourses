@@ -18,7 +18,7 @@
     <ClCompile Include="cpptoutorial.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ooutput.cpp">
+    <ClCompile Include="variables.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
