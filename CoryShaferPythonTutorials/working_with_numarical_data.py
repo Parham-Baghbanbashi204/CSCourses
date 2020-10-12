@@ -31,3 +31,7 @@ num_float = 3.3
 # num2 = '200'
 # print(num1 + num2) --> 100200
 # print(int(num1) + int(num2)) --> 300
+
+# Functions
+# abs --> absulte value
+# round(num, round_to_number_of_digits) -- Rounds to the nearst digit
